@@ -42,18 +42,13 @@ yarn install
 yarn prebuild
 ```
 
-3. Install iOS dependencies (macOS only):
-```bash
-yarn pod-install
-```
-
 ## Running the App
 
 ```bash
 # Start development server
 yarn start
 
-# Run on iOS simulator
+# Run on iOS simulator (automatically installs CocoaPods)
 yarn ios
 
 # Run on Android emulator
@@ -100,7 +95,7 @@ The `ios/` and `android/` folders are not included in this repository. You need 
 # Generate native projects
 yarn prebuild
 
-# iOS Debug Build
+# iOS Debug Build (automatically installs CocoaPods)
 yarn ios
 
 # Android Debug Build
@@ -150,7 +145,7 @@ yarn type-check
 # Clean build
 yarn prebuild:clean
 
-# Build for iOS
+# Build for iOS (automatically installs CocoaPods)
 yarn ios
 
 # Build for Android
