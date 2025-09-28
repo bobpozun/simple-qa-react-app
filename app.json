@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Simple QA React App",
+    "slug": "simple-qa-react-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.simpleqareactapp.app"
+    },
+    "android": {
+      "package": "com.simpleqareactapp.app"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
